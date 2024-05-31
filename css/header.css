@@ -1,0 +1,15 @@
+/* .background_img{
+    width: 100%;
+    height: auto;
+    max-height: 1305px;
+    max-width: 2560px;
+    display: block;
+    margin: auto;
+} */
+body{
+    background: url(/images/bacground_img_7.0.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}

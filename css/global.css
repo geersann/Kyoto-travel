@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --background_color: #000000;
+}
