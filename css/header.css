@@ -37,11 +37,58 @@
 .mark{
     max-width: 500px;
     max-height: 500px;
-    animation: rotate 5s linear infinite;
+    animation: rotate 21s linear infinite;
+    position: absolute;
 }
 .title_obj{
     display: flex;
 }
+.rectangle {
+    width: 298px;
+    height: 229px;
+    background-color: #000;
+    opacity: 0.7;
+    border-radius: 8px;
+    transform: rotate(82deg);
+    position: relative;
+    bottom: -245px;
+    right: -145px;
+    z-index: 3;
+}
+.rectangle_2 {
+    width: 298px;
+    height: 229px;
+    background-color: #000;
+    opacity: 0.7;
+    border-radius: 8px;
+    transform: rotate(101deg);
+    position: relative;
+    bottom: 137px;
+    right: -414px;
+}
+.rectangle_logo{
+    max-width: 172px;
+    max-height: 129px;
+    position: relative;
+    right: -191px;
+    bottom: 7px;
+    transform: rotate(-8deg);
+    z-index: 4;
+}
+.rectangle_description{
+    color: white;
+    position: relative;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+    z-index: 4;
+    right: -145px;
+    bottom: -3px;
+    transform: rotate(-7.5deg);
+}
+
 
 @keyframes rotate {
     from {

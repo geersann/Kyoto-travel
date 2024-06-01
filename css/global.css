@@ -9,13 +9,12 @@
 body{
     margin: auto;
     max-width: 1200px;
-    background: url(/images/bacground_img_2.0.jpeg) no-repeat top center fixed;
+    background: url(/images/bacground_img_2.0.jpeg) no-repeat top center;
     background-color: black;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: 100% auto;
-        height: 100vh;
 }
 
 :root{
