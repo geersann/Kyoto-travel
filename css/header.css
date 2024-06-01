@@ -1,15 +1,53 @@
-/* .background_img{
-    width: 100%;
-    height: auto;
-    max-height: 1305px;
-    max-width: 2560px;
-    display: block;
-    margin: auto;
-} */
-body{
-    background: url(/images/bacground_img_8.0.jpeg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+.title_text{
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 40px;
+    text-align:justify;
+    margin-top: 250px;
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 1200px;
+}
+.header__menu-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.header__menu-item a{
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main_text_color);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 52px;
+}
+.header__menu-item a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.mark{
+    max-width: 500px;
+    max-height: 500px;
+    animation: rotate 5s linear infinite;
+}
+.title_obj{
+    display: flex;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

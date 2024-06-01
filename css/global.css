@@ -1,15 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Crafty+Girls&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 *{
-    height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+}
+body{
+    margin: auto;
+    max-width: 1200px;
+    background: url(/images/bacground_img_2.0.jpeg) no-repeat top center fixed;
+    background-color: black;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100% auto;
+        height: 100vh;
 }
 
 :root{
     --background_color: #000000;
+    --main_text_color: #000000;
 }
