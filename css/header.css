@@ -61,10 +61,10 @@
     background-color: #000;
     opacity: 0.7;
     border-radius: 8px;
-    transform: rotate(101deg);
+    transform: rotate(105deg);
     position: relative;
-    bottom: 137px;
-    right: -414px;
+    bottom: 340px;
+    right: -425px;
 }
 .rectangle_logo{
     max-width: 172px;
@@ -88,7 +88,15 @@
     bottom: -3px;
     transform: rotate(-7.5deg);
 }
-
+.rectangle_button{
+    position: relative;
+    z-index: 4;
+    max-width: 111px;
+    max-height: 128px;
+    right: -256px;
+    top: -26px;
+    transform: rotate(-6deg);
+}
 
 @keyframes rotate {
     from {
