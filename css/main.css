@@ -1,0 +1,20 @@
+.main_page{
+    margin: 100px 100px 100px 100px;
+}
+.discover_destination{
+    display: flex;
+    flex-direction: row;
+}
+.discover_logo{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 7px 25px;
+}
+.discover_title{
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 45px;
+    text-align:justify;
+    color: var(--second_main_text_color);
+}

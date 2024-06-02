@@ -6,9 +6,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+header{
     margin: auto;
-    max-width: 1200px;
     background: url(https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg) no-repeat top center;
     background-color: black;
         -webkit-background-size: cover;
@@ -16,8 +15,13 @@ body{
         -o-background-size: cover;
         background-size: 100% auto;
 }
+body{
+    background-color: #000000;
+}
 
 :root{
     --background_color: #000000;
     --main_text_color: #000000;
+    --second_main_text_color: #ffffff;
+
 }
