@@ -1,5 +1,7 @@
 .main_page{
-    margin: 100px 100px 100px 100px;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1200px;
 }
 .discover_destination{
     display: flex;
@@ -17,4 +19,66 @@
     font-size: 45px;
     text-align:justify;
     color: var(--second_main_text_color);
+}
+.slider{
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.main_slider{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.main_slider li img{
+    width: 100%;
+    padding-right: 50px;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 12px;
+}
+.read_blog{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.read_logo{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 7px 25px; 
+}
+.kiyomizu-dera_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.kiyomizu-dera_img{
+    max-width: 210px;
+    max-height: 210px;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+.kiyomizu-dera_title{
+    color: var(--second_main_text_color);
+    font-family: "Crafty Girls", cursive;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 25px;
+}
+.kiyomizu-dera_discription{
+    color: var(--second_main_text_color);
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.kiyomizu-dera_ref{
+    color: var(--link_color);
+    text-decoration: none;
+    font-size: 21px;
 }
