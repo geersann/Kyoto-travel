@@ -49,6 +49,9 @@
     max-height: 50px;
     margin: 7px 25px; 
 }
+.read_items{
+    display: flex;
+}
 .kiyomizu-dera_main{
     display: flex;
     flex-direction: row;
@@ -81,4 +84,41 @@
     color: var(--link_color);
     text-decoration: none;
     font-size: 21px;
+}
+.arashiyama_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.arashiyama_img{
+    max-width: 210px;
+    max-height: 210px;
+    border-radius: 12px;
+    margin-right: 25px;
+}
+.arashiyama_title{
+    color: var(--second_main_text_color);
+    font-family: "Crafty Girls", cursive;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 25px;
+}
+.arashiyama_discription{
+    color: var(--second_main_text_color);
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.arashiyama_ref{
+    color: var(--link_color);
+    text-decoration: none;
+    font-size: 21px;
+}
+.koto{
+    max-width: 633px;
+    max-height: 700px;
 }
