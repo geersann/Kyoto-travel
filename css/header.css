@@ -70,6 +70,12 @@
     position: relative;
     bottom: 340px;
     right: -425px;
+    max-width: 100%;
+    max-height: auto;
+}
+.rectangle_2_main{
+    max-width: 100%;
+    max-height: auto;
 }
 .rectangle_logo{
     max-width: 172px;
@@ -141,5 +147,209 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 1460px) {
+    .rectangle {
+        width: 242px;
+        height: 187px;
+        background-color: #000;
+        opacity: 0.7;
+        border-radius: 8px;
+        transform: rotate(82deg);
+        position: relative;
+        bottom: -245px;
+        right: -145px;
+        z-index: 3;
+    }
+    .rectangle_2 {
+        width: 242px;
+        height: 187px;
+        background-color: #000;
+        opacity: 0.7;
+        border-radius: 8px;
+        transform: rotate(105deg);
+        position: relative;
+        bottom: 242px;
+        right: -369px;
+        max-width: 100%;
+        max-height: auto;
+    }
+    .rectangle_2_main{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .rectangle_logo{
+        max-width: 118px;
+        max-height: 124px;
+        position: relative;
+        right: -195px;
+        bottom: -44px;
+        transform: rotate(-8deg);
+        z-index: 4;
+    }
+    .rectangle_description{
+        color: white;
+        position: relative;
+        font-family: "Crafty Girls", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        text-align: center;
+        z-index: 4;
+        right: -143px;
+        bottom: -42px;
+        transform: rotate(-7.5deg);
+    }
+    .rectangle_button{
+        position: relative;
+        z-index: 4;
+        max-width: 111px;
+        max-height: 110px;
+        right: -232px;
+        top: 31px;
+        transform: rotate(-6deg);
+    }
+    .rectangle_logo_2{
+        max-width: 164px;
+        max-height: 282px;
+        position: relative;
+        right: -424px;
+        bottom: 459px;
+        transform: rotate(14deg);
+        z-index: 4;
+    }
+    .rectangle_description_2{
+        color: white;
+        position: relative;
+        font-family: "Crafty Girls", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        text-align: center;
+        z-index: 4;
+        right: -448px;
+        bottom: 481px;
+        transform: rotate(14.5deg);
+        max-width: 30%;
+    }
+    .rectangle_button_2{
+        position: relative;
+        z-index: 4;
+        max-width: 87px;
+        max-height: 108px;
+        right: -426px;
+        top: -501px;
+        transform: rotate(14deg);
+    }
+    .mark {
+        max-width: 355px;
+        max-height: 399px;
+    }
+    .title_text {
+        margin-top: 136px;
+    }
+}
+
+@media (max-width: 1219px) {
+    .rectangle {
+        width: 188px;
+        height: 152px;
+        background-color: #000;
+        opacity: 0.7;
+        border-radius: 8px;
+        transform: rotate(82deg);
+        position: relative;
+        bottom: -171px;
+        right: -93px;
+        z-index: 3;
+    }
+    .rectangle_2 {
+        width: 188px;
+        height: 152px;
+        background-color: #000;
+        opacity: 0.7;
+        border-radius: 8px;
+        transform: rotate(105deg);
+        position: relative;
+        bottom: 225px;
+        right: -275px;
+    }
+    .rectangle_2_main{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .rectangle_logo{
+        max-width: 93px;
+        max-height: 104px;
+        position: relative;
+        right: -133px;
+        bottom: -12px;
+        transform: rotate(-8deg);
+        z-index: 4;
+    }
+    .rectangle_description{
+        color: white;
+        position: relative;
+        font-family: "Crafty Girls", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+        z-index: 4;
+        right: -94px;
+        bottom: -14px;
+        transform: rotate(-7.5deg);
+    }
+    
+    .rectangle_button{
+        position: relative;
+        z-index: 4;
+        max-width: 95px;
+        max-height: 90px;
+        right: -161px;
+        top: -3px;
+        transform: rotate(-6deg);
+    }
+    .rectangle_logo_2{
+        max-width: 129px;
+        max-height: 268px;
+        position: relative;
+        right: -316px;
+        bottom: 399px;
+        transform: rotate(14deg);
+        z-index: 4;
+    }
+    .rectangle_description_2{
+        color: white;
+        position: relative;
+        font-family: "Crafty Girls", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+        z-index: 4;
+        right: -330px;
+        bottom: 415px;
+        transform: rotate(14.5deg);
+        max-width: 30%;
+    }
+    .rectangle_button_2{
+        position: relative;
+        z-index: 4;
+        max-width: 87px;
+        max-height: 91px;
+        right: -311px;
+        top: -435px;
+        transform: rotate(14deg);
+    }
+    .mark {
+        max-width: 366px;
+        max-height: 347px;
+    }
+    .title_text {
+        margin-top: 118px;
     }
 }

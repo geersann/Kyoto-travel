@@ -85,6 +85,10 @@
     text-decoration: none;
     font-size: 21px;
 }
+.kiyomizu-dera_ref:hover{
+    font-weight: bold;
+    color: var(--second_main_text_color);
+}
 .arashiyama_main{
     display: flex;
     flex-direction: row;
@@ -117,6 +121,10 @@
     color: var(--link_color);
     text-decoration: none;
     font-size: 21px;
+}
+.arashiyama_ref:hover{
+    font-weight: bold;
+    color: var(--second_main_text_color);
 }
 .koto{
     max-width: 633px;
