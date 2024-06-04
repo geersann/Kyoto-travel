@@ -1,0 +1,200 @@
+.footer {
+    background-color: #6AACA7;
+    padding-top: 56px;
+}
+
+.footer-maxsize-section {
+    margin: 0 auto;
+	max-width: 1168px;
+}
+
+.tiket_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiket_info a:first-of-type {
+    color: var(--main_text_color);
+    font-size: 20px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.tiket_info a:last-of-type {
+    color: var(--main_text_color);
+    font-size: 20px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    margin-bottom: 70px;
+    text-decoration: none;
+}
+.tiket_info a:hover {
+    font-weight: bold;
+    color: var(--second_main_text_color);
+}
+
+.footer_nav_container img {
+     margin: auto;
+     max-width: 300px;
+     max-height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.footer-nav {
+    margin-left: 78px;
+}
+
+.footer-nav-list li{
+    list-style-type: none;
+}
+
+.footer-nav-list li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--main_text_color);
+    font-size: 20px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    padding-top: 20px;
+}
+
+.footer_nav_media_container p{
+    text-align: center;
+    padding-top: 25px;
+    color: var(--main_text_color);
+    font-size: 15px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+}
+.footer-nav-media{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.footer-nav-media li {
+    margin:  0 5px;
+}
+
+.footer-nav-media-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-nav-media-list li{
+    list-style-type: none;
+}
+
+.footer-nav-media-list li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #6AACA7;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    transition: background-color 0.2s;
+}
+
+.footer-nav-media-list li a:hover {
+    background-color: #6AACA7;
+}
+
+.footer-nav-media-list li a img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+.more_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.more_info a:first-of-type {
+    color: var(--main_text_color);
+    font-size: 20px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    text-decoration: none;
+}
+
+.more_info a:last-of-type{
+    color: var(--main_text_color);
+    font-size: 20px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.more_info a:hover {
+    font-weight: bold;
+    color: var(--second_main_text_color);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .content_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    .tiket_info a:first-of-type {
+        margin-bottom: 185px;
+    }
+
+    .more_info a:first-of-type {
+        margin-bottom: 170px;
+    }
+
+    .more_info {
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    .footer-nav-list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-nav-list li {
+        margin: 0 10px; 
+      }
+
+    .tiket_info a:first-of-type {
+        margin-bottom: 273px;
+    }
+
+    .more_info a:first-of-type {
+        margin-bottom: 273px;
+    }
+
+    .more_info {
+        margin-top: -5px;
+    }
+}
