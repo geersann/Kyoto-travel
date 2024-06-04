@@ -126,7 +126,25 @@
     font-weight: bold;
     color: var(--second_main_text_color);
 }
-.koto{
+.koto_block {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.koto {
     max-width: 633px;
     max-height: 700px;
+}
+
+@media (max-width: 1052px) {
+    .koto {
+        max-width: 533px;
+        max-height: 600px;
+    } 
+}
+@media (max-width: 990px) {
+    .koto {
+        max-width: 433px;
+        max-height: 500px;
+    } 
 }
