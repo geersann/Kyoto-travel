@@ -54,16 +54,16 @@
     height: 18px;
 }
 .burger span {
-    height: 2px;
-    width: 120%;
+    height: 3px;
+    width: 150%;
     transform: scale(1);
     background-color: var(--main_text_color);
 }
 .burger::before, .burger::after {
     content: '';
     position: absolute;
-    height: 2px;
-    width: 140%;
+    height: 3px;
+    width: 150%;
     background-color: var(--main_text_color);
     transition: all 0.3s ease 0s;
 }
@@ -433,7 +433,7 @@
     }
     .bur_icon {
         display: block;
-        max-width: 50px;
+        max-width: 57px;
     }
     .bur_list_icons {
         display: flex;
@@ -461,12 +461,12 @@
     }
     .header__nav ul{
         flex-direction: column;
-        row-gap: 50px;
+        row-gap: 95px;
         align-self: center;
     }
     .header__menu-item a {
         color: var(--second_link_color);
-        font-size: 30px;
+        font-size: 31px;
         margin-right: 0;
     }
     .header__menu-list{
@@ -478,6 +478,12 @@
     .discover_logo {
         max-width: 57px;
         max-height: 57px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__menu-item a {
+        font-size: 71px;
     }
 }
 
