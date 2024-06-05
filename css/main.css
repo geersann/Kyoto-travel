@@ -144,7 +144,54 @@
 }
 @media (max-width: 990px) {
     .koto {
-        max-width: 433px;
-        max-height: 500px;
+        max-width: 591px;
+        max-height: 591px;
     } 
+    .main_slider {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .read_items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .read_blog {
+        justify-content: center;
+    }
+    .read_logo {
+        max-width: 59px;
+        max-height: 59px;
+    }
+    .discover_title {
+        font-size: 49px;
+    }
+    .discover_destination {
+        justify-content: center;
+    }
+    .kiyomizu-dera_ref {
+        font-size: 32px;
+    }
+    .kiyomizu-dera_discription {
+        font-size: 25px;
+    }
+    .kiyomizu-dera_title {
+        font-size: 32px;
+    }
+    .kiyomizu-dera_img {
+        max-width: 391px;
+        max-height: 343px;
+    }
+    .arashiyama_ref {
+        font-size: 32px;
+    }
+    .arashiyama_discription {
+        font-size: 25px;
+    }
+    .arashiyama_title {
+        font-size: 32px;
+    }
+    .arashiyama_img {
+        max-width: 391px;
+        max-height: 343px;
+    }
 }

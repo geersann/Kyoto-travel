@@ -2,6 +2,34 @@
     background-color: #6AACA7;
     padding-top: 56px;
 }
+.footer__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 101px;
+    max-width: 1200px;
+    position: relative;
+    bottom: -29px;
+}
+.footer__menu-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.footer__menu-item a{
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main_text_color);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 52px;
+    
+}
+.footer__menu-item a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
 
 .footer-maxsize-section {
     margin: 0 auto;

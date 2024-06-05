@@ -55,7 +55,7 @@
 }
 .burger span {
     height: 2px;
-    width: 80%;
+    width: 120%;
     transform: scale(1);
     background-color: var(--main_text_color);
 }
@@ -63,7 +63,7 @@
     content: '';
     position: absolute;
     height: 2px;
-    width: 100%;
+    width: 140%;
     background-color: var(--main_text_color);
     transition: all 0.3s ease 0s;
 }
@@ -144,6 +144,7 @@
     right: -145px;
     bottom: -3px;
     transform: rotate(-7.5deg);
+    max-width: 295px;
 }
 .rectangle_button{
     position: relative;
@@ -201,6 +202,12 @@
 }
 .header__menu-item.text {
     filter: drop-shadow(5px 10px 7px #6AACA7);
+}
+.rectangle_button:hover {
+    filter: drop-shadow(0px 0px 9px #19ddcd);
+}
+.rectangle_button_2:hover {
+    filter: drop-shadow(0px 0px 9px #19ddcd);
 }
 
 @keyframes rotate {
@@ -349,6 +356,76 @@
 }
 
 @media (max-width: 990px) {
+    .title_obj {
+        display: flex;
+        flex-direction: column;
+    }
+    .rectangle {
+        width: 245px;
+        height: 184px;
+        bottom: -119px;
+        right: -38px;
+    }
+    .rectangle_2 {
+        width: 245px;
+        height: 184px;
+        bottom: 380px;
+        right: -263px;
+    }
+    .rectangle_2_main{
+        max-width: 100%;
+        max-height: auto;
+    }
+    .rectangle_logo{
+        max-width: 135px;
+        max-height: 137px;
+        right: -80px;
+        bottom: 83px;
+    }
+    .rectangle_description{
+        font-size: 23px;
+        right: -14px;
+        bottom: 79px;
+    }
+    
+    .rectangle_button{
+        max-width: 85px;
+        max-height: 130px;
+        right: -127px;
+        top: -111px;
+    }
+    .rectangle_logo_2{
+        max-width: 192px;
+        max-height: 268px;
+        right: -303px;
+        bottom: 606px;
+    }
+    .rectangle_description_2{
+        font-size: 22px;
+        right: -232px;
+        bottom: 625px;
+    }
+    .rectangle_button_2{
+        max-width: 99px;
+        max-height: 111px;
+        right: -318px;
+        top: -631px;
+    }
+    .rectangle_2_main {
+        max-height: 0px;
+    }
+    .mark {
+        max-width: 366px;
+        max-height: 450px;
+        top: 70px;
+        right: 300px;
+    }
+    .mark_block {
+        
+    }
+    .title_text {
+        margin-top: 118px;
+    }
     .title_text {
         font-size: 31px;
         margin-top: 85px;
@@ -394,6 +471,13 @@
     }
     .header__menu-list{
         align-items: center;
+    }
+    .title_text {
+        margin-left: 50px;
+    }
+    .discover_logo {
+        max-width: 57px;
+        max-height: 57px;
     }
 }
 
