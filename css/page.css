@@ -11,7 +11,8 @@
 	--side-big: 36;
 	--side-big_video: 21;
 	--depth: 4000px;
-	--transition: .75s cubic-bezier(.075, .5, 0, 1)
+	--transition: .75s cubic-bezier(.075, .5, 0, 1);
+	--title_color: #f9aaff;
 }
 
 /* Скрываем Scrollbar */
@@ -71,6 +72,7 @@ h1, h2, h3, h4 {
 .frame h2 {
 	text-align: center;
 	font-size: calc(var(--index) * 3.3);
+	color: var(--title_color);
 }
 .frame-media {
 	position: relative;
@@ -126,4 +128,8 @@ video.frame-media_left {
 }
 .invisiblity {
 	opacity: 0;
+}
+
+.sakura {
+	transform: scaleX(-1);
 }
