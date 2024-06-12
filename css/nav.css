@@ -29,7 +29,7 @@
     font-family: "Crafty Girls", cursive;
     font-weight: 400;
     font-style: normal;
-    color: var(--main_text_color);
+    color: white;
     text-decoration: none;
     font-size: 20px;
     margin-right: 52px;
@@ -58,14 +58,14 @@
     height: 3px;
     width: 150%;
     transform: scale(1);
-    background-color: var(--main_text_color);
+    background-color: white;
 }
 .burger::before, .burger::after {
     content: '';
     position: absolute;
     height: 3px;
     width: 150%;
-    background-color: var(--main_text_color);
+    background-color: white;
     transition: all 0.3s ease 0s;
 }
 .burger::before {top: 0}
@@ -78,16 +78,16 @@
 .burger.active::before {
     top: 50%;
     transform: rotate(-45deg) translate(0, -50%);
-    background-color: var(--second_main_text_color);
+    background-color: white;
 }
 .burger.active::after {
     bottom: 50%;
     transform: rotate(45deg) translate(0, 50%);
-    background-color: var(--second_main_text_color);
+    background-color: white;
 }
 
-.mark {
-    max-width: 200px;
+.mark{
+    max-width: 500px;
     max-height: 500px;
     animation: rotate 21s linear infinite;
     position: absolute;
@@ -424,9 +424,6 @@
         top: 144px;
         right: 287px;
     }
-    .mark_block {
-        
-    }
     .title_text {
         margin-top: 118px;
     }
@@ -460,7 +457,7 @@
         overflow-y: auto;
         justify-content: center;
         padding: 50px 40px;
-        background-color: var(--background_color);
+        background-color: black;
         animation: burgerAnimation 0.5s;
     }
     .header__nav ul{
@@ -469,7 +466,7 @@
         align-self: center;
     }
     .header__menu-item a {
-        color: var(--second_link_color);
+        color: white;
         font-size: 31px;
         margin-right: 0;
     }

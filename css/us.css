@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+.us_main {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.us_logo_circle {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+}
+.us_description {
+    color: white;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.us_links_icons {
+    display: flex;
+    flex-direction: row;
+}
+.us_links_icons img{
+    max-width: 92px;
+    margin: 50px 35px 50px 35px;
+}
+.nav {
+    justify-content: center;
+}
+
+@media (max-width: 990px) {
+    .us_description {
+        font-size: 35px;
+    }
+    .us_logo_circle {
+        max-width: 450px; 
+    }
+    .us_links_icons img {
+        max-width: 72px;
+    }
+}
+@media (max-width: 600px) {
+    .us_description {
+        font-size: 27px;
+    }
+    .us_logo_circle {
+        max-width: 370px; 
+    }
+    .us_links_icons img {
+        max-width: 52px;
+    }
+}
+@media (max-width: 490px) {
+    .us_description {
+        font-size: 21px;
+    }
+    .us_logo_circle {
+        max-width: 254px; 
+    }
+    .us_links_icons img {
+        max-width: 42px;
+    }
+}

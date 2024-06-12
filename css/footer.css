@@ -76,13 +76,11 @@
      align-items: center;
 }
 .footer-nav {
-    margin-left: 78px;
+    margin-left: 67px;
 }
-
 .footer-nav-list li{
     list-style-type: none;
 }
-
 .footer-nav-list li a {
     display: flex;
     flex-direction: column;
