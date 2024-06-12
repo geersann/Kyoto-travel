@@ -27,3 +27,12 @@ body{
     --second_link_color: #2eeddf;
 
 }
+
+@media (max-width: 620px) {
+    header{
+        background: url(../images/bacground_img_3.0.png) no-repeat top center;
+    }
+    .mark_block {
+        margin-bottom: 458px;
+    }
+}

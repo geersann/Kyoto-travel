@@ -143,7 +143,7 @@
     } 
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1024px) {
     .koto {
         max-width: 591px;
         max-height: 591px;
@@ -202,3 +202,96 @@
     }
 }
 
+@media (max-width: 768px) {
+    .discover_title {
+        font-size: 49px;
+    }
+}
+@media (max-width: 820px) {
+    .kiyomizu-dera_img {
+        max-width: 391px;
+        max-height: 261px;
+    }
+    .arashiyama_img {
+        max-width: 391px;
+        max-height: 261px; 
+    }
+    .kiyomizu-dera_title {
+        font-size: 25px;
+        margin-top: 21px;
+    }
+    .kiyomizu-dera_discription {
+        font-size: 17px;
+    }
+    .kiyomizu-dera_ref {
+        font-size: 25px;
+    }
+    .kiyomizu-dera_main {
+        flex-direction: column; 
+    }
+    
+    .arashiyama_title {
+        font-size: 25px;
+        margin-top: 21px;
+    }
+    .arashiyama_discription {
+        font-size: 17px;
+    }
+    .arashiyama_ref {
+        font-size: 25px;
+    }
+    .arashiyama_main {
+        flex-direction: column; 
+    }
+}
+@media (max-width: 620px) {
+    .koto {
+        margin-top: 45px;
+        max-width: 453px;
+        max-height: 489px;
+    }
+    .discover_title {
+        font-size: 45px;
+    }
+    .main_slider li img {
+        padding-right: 25px;
+    }
+}
+@media (max-width: 520px) {
+    .koto {
+        margin-top: 45px;
+        max-width: 418px;
+        max-height: 474px;
+    }
+    .discover_title {
+        font-size: 37px;
+    }
+}
+@media (max-width: 456px) {
+    .discover_title {
+        font-size: 35px;
+    }
+    .koto {
+        margin-top: 45px;
+        max-width: 333px;
+        max-height: 474px;
+    }
+    .read_logo {
+        max-width: 51px;
+        max-height: 41px;
+        margin: 7px 15px;
+    }
+}
+@media (max-width: 340px) {
+    .koto {
+        margin-top: 45px;
+        max-width: 298px;
+        max-height: 461px;
+    }
+    .discover_title {
+        font-size: 24px;
+    }
+    .discover_logo {
+        margin: 7px 15px;
+    }
+}

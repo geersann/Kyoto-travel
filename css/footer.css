@@ -240,3 +240,14 @@
         max-height: 100px;
     }
 }
+@media (max-width: 768px) {
+    .footer__menu-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+    }
+    .footer__menu-item a {
+        margin-right: 75px;
+    }
+}

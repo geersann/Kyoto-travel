@@ -18,6 +18,7 @@
     max-width: 1200px;
     position: relative;
     bottom: -29px;
+    left: -27px;
 }
 .header__menu-list{
     display: flex;
@@ -334,8 +335,9 @@
         top: -435px;
     }
     .mark {
-        max-width: 366px;
-        max-height: 347px;
+        max-width: 169px;
+        max-height: 334px;
+        right: 144px;
     }
     .title_text {
         margin-top: 118px;
@@ -351,24 +353,27 @@
 @media (max-width: 1063px) {
     .title_text {
         font-size: 35px;
-        margin-top: 95px;
+        margin-top: 45px;
     }
 }
 
 @media (max-width: 990px) {
+    .header__menu-item a {
+        font-size: 32px;
+    }
     .title_obj {
         display: flex;
         flex-direction: column;
     }
     .rectangle {
-        width: 245px;
-        height: 184px;
-        bottom: -119px;
-        right: -38px;
+        width: 216px;
+        height: 149px;
+        bottom: -88px;
+        right: -78px;
     }
     .rectangle_2 {
-        width: 245px;
-        height: 184px;
+        width: 216px;
+        height: 149px;
         bottom: 380px;
         right: -263px;
     }
@@ -376,49 +381,48 @@
         max-width: 100%;
         max-height: auto;
     }
-    .rectangle_logo{
-        max-width: 135px;
-        max-height: 137px;
-        right: -80px;
-        bottom: 83px;
+    .rectangle_logo {
+        max-width: 202px;
+        max-height: 84px;
+        right: -118px;
+        bottom: 85px;
     }
-    .rectangle_description{
-        font-size: 23px;
-        right: -14px;
-        bottom: 79px;
+    .rectangle_description {
+        font-size: 21px;
+        right: -37px;
+        bottom: 84px;
     }
-    
-    .rectangle_button{
-        max-width: 85px;
+    .rectangle_button {
+        max-width: 72px;
         max-height: 130px;
-        right: -127px;
-        top: -111px;
+        right: -156px;
+        top: -106px;
     }
-    .rectangle_logo_2{
-        max-width: 192px;
+    .rectangle_logo_2 {
+        max-width: 166px;
         max-height: 268px;
         right: -303px;
-        bottom: 606px;
+        bottom: 574px;
     }
-    .rectangle_description_2{
-        font-size: 22px;
-        right: -232px;
-        bottom: 625px;
+    .rectangle_description_2 {
+        font-size: 18px;
+        right: -218px;
+        bottom: 588px;
     }
-    .rectangle_button_2{
-        max-width: 99px;
-        max-height: 111px;
-        right: -318px;
-        top: -631px;
+    .rectangle_button_2 {
+        max-width: 89px;
+        max-height: 101px;
+        right: -312px;
+        top: -596px;
     }
     .rectangle_2_main {
         max-height: 0px;
     }
     .mark {
-        max-width: 366px;
-        max-height: 450px;
-        top: 70px;
-        right: 300px;
+        max-width: 123px;
+        max-height: 148px;
+        top: 144px;
+        right: 287px;
     }
     .mark_block {
         
@@ -441,7 +445,7 @@
     .burger {
         display: flex;
         justify-content: end;
-        transform: translateX(876px);
+        transform: translateX(774px);
         position: relative;
         bottom: -40px;
     }
@@ -480,10 +484,277 @@
         max-height: 57px;
     }
 }
+@media (max-width: 835px) {
+    .burger {
+        transform: translateX(657px);
+    }
+    .title_text {
+        font-size: 27px;
+    }
+}
+@media (max-width: 710px) {
+    .burger {
+        transform: translateX(520px);
+    }
+    .title_text {
+        font-size: 23px;
+    }
+}
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
     .header__menu-item a {
-        font-size: 71px;
+        font-size: 25px;
+    }
+    .rectangle_2 {
+        width: 245px;
+        height: 184px;
+        bottom: 12px;
+        right: -263px;
+    }
+    .rectangle_button_2 {
+        max-width: 99px;
+        max-height: 111px;
+        right: -319px;
+        top: -263px;
+    }
+    .rectangle_logo_2 {
+        max-width: 192px;
+        max-height: 268px;
+        right: -308px;
+        bottom: 240px;
+    }
+    .rectangle_description_2 {
+        font-size: 22px;
+        right: -288px;
+        bottom: 261px;
+    }
+    .rectangle {
+        width: 239px;
+        height: 189px;
+        bottom: -88px;
+        right: -78px;
+    }
+    .rectangle_logo {
+        max-width: 213px;
+        max-height: 102px;
+        right: -120px;
+        bottom: 116px;
+    }
+    .rectangle_description {
+        font-size: 21px;
+        right: -52px;
+        bottom: 109px;
+    }
+    .rectangle_button {
+        max-width: 83px;
+        max-height: 138px;
+        right: -165px;
+        top: -141px;
+    }
+    .mark {
+        max-width: 189px;
+        max-height: 233px;
+        top: 322px;
+        right: 33px;
+    }
+    .title_text {
+        font-size: 27px;
+    }
+    .title_text {
+        margin-top: 161px;
+        font-size: 32px;
+    }
+}
+@media (max-width: 565px) {
+    .burger {
+        transform: translateX(450px);
+    }
+    .title_text {
+        margin-top: 161px;
+        font-size: 29px;
+    }
+    .rectangle {
+        width: 207px;
+        height: 152px;
+        bottom: -88px;
+        right: -78px;
+    }
+    .rectangle_logo {
+        max-width: 112px;
+        max-height: 102px;
+        right: -120px;
+        bottom: 84px;
+    }
+    .rectangle_description {
+        font-size: 20px;
+        right: -38px;
+        bottom: 88px;
+    }
+    .rectangle_button {
+        max-width: 83px;
+        max-height: 138px;
+        right: -150px;
+        top: -120px;
+    }
+    .rectangle_2 {
+        width: 207px;
+        height: 152px;
+        bottom: 12px;
+        right: -263px;
+    }
+    .rectangle_logo_2 {
+        max-width: 159px;
+        max-height: 268px;
+        right: -303px;
+        bottom: 200px;
+    }
+    .rectangle_description_2 {
+        font-size: 19px;
+        right: -280px;
+        bottom: 221px;
+    }
+    .rectangle_button_2 {
+        max-width: 99px;
+        max-height: 111px;
+        right: -303px;
+        top: -238px;
+    }
+}
+@media (max-width: 500px) {
+    .burger {
+        transform: translateX(421px);
+    }
+    .title_text {
+        margin-top: 161px;
+        font-size: 27px;
+    }
+
+}
+@media (max-width: 482px) {
+    .rectangle_2_main {
+        position: relative;
+        left: -87px;
+    }
+    .rectangle_button_2 {
+        max-width: 99px;
+        max-height: 98px;
+        right: -304px;
+        top: -250px;
+    }
+    .rectangle_main {
+        position: relative;
+        left: -81px;
+    }
+}
+@media (max-width: 482px) {
+    .burger {
+        transform: translateX(376px);
+    }
+    .title_text {
+        margin-left: 23px;
+
+    }
+    .mark_block {
+        margin-bottom: 163px;
+    }
+    .rectangle_2_main {
+        position: relative;
+        left: -104px;
+        top: -164px;
+    }
+}
+@media (max-width: 430px) {
+    .title_text {
+        font-size: 25px;
+        margin-left: 19px;
+    }
+    .burger {
+        transform: translateX(336px);
+    }
+}
+@media (max-width: 394px) {
+    .title_text {
+        font-size: 23px;
+    }
+}
+@media (max-width: 372px) {
+    .burger {
+        transform: translateX(305px);
+    }
+    .rectangle {
+        width: 182px;
+        height: 137px;
+        bottom: -88px;
+        right: -78px;
+    }
+    .rectangle_logo {
+        max-width: 112px;
+        max-height: 70px;
+        right: -116px;
+        bottom: 65px;
+    }
+    .rectangle_description {
+        font-size: 18px;
+        right: -23px;
+        bottom: 69px;
+    }
+    .rectangle_button {
+        max-width: 73px;
+        max-height: 126px;
+        right: -141px;
+        top: -93px;
+    }
+    .rectangle_2 {
+        width: 182px;
+        height: 137px;
+        bottom: -91px;
+        right: -234px;
+    }
+    .rectangle_logo_2 {
+        max-width: 131px;
+        max-height: 267px;
+        right: -273px;
+        bottom: 77px;
+    }
+    .rectangle_description_2 {
+        font-size: 17px;
+        right: -265px;
+        bottom: 98px;
+    }
+    .rectangle_button_2 {
+        max-width: 87px;
+        max-height: 91px;
+        right: -274px;
+        top: -123px;
+    }
+    .mark {
+        max-width: 222px;
+        max-height: 150px;
+        top: 233px;
+        right: 51px;
+    }
+    .mark_block {
+        margin-bottom: 193px;
+    }
+    .title_text {
+        margin-top: 73px;
+    }
+    .title_text {
+        font-size: 21px;
+    }
+}
+@media (max-width: 340px) {
+    .burger {
+        transform: translateX(270px);
+    }
+    .title_text {
+        font-size: 19px;
+    }
+    .mark_block {
+        margin-bottom: 111px;
+    }
+    .header__menu-item a {
+        font-size: 19px;
     }
 }
 
